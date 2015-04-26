@@ -83,7 +83,8 @@
     public static UserInfo user = null;
     public Integer doctor_id;
     public String doctor_name;
-    ......
+    ...
+    ...
     ```
   * 项目主要采用静态类的方式，主要是通过gson解析用户的json数据
   ```
