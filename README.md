@@ -68,6 +68,15 @@
   ```
 * 怎么在手机端保存用户的信息？
   * 一种是采用SharedPreferences保存用户信息
+  ```
+  SharedPreferences sharedPreferences = getSharedPreferences(PREFERENCE_NAME, Activity.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        userName = username.getText().toString();
+        passWord = password.getText().toString();
+        editor.putString("UserName", userName);
+        editor.putString("PassWord", passWord);
+        editor.commit();
+  ```
   * 另一种是采用静态类的方法，保存user信息
   * 项目主要采用静态类的方式，主要是通过gson解析用户的json数据
   ```
