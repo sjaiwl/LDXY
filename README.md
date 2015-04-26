@@ -2,10 +2,10 @@
 “灵动校园”项目 （基于android客户端的学生社交平台）<br>
 “一起去”是基于android平台的学生社交软件，致力于提供好的校园活动，拉近不同学生心灵之间距离的一款产品。<br>
 
-[Download APK]()
+[Download APK](https://github.com/sjaiwl/image_folder/blob/master/LDXY.apk)
 
 ## 功能架构图
-![image]()
+![image](https://github.com/sjaiwl/image_folder/blob/master/LDXY/information.png)
 ## 功能实现
 * 主要功能就是发布活动和参与活动，通过手机端将活动参数提交到后台，增加活动记录。
   * 主要使用Volley框架的get和post方法，发送请求。
