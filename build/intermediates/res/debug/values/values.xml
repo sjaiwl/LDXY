@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/color.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/color.xml -->
     <eat-comment/>
     <color name="BtBackground">#00A57D</color>
     <color name="BtBackground1">#0A8E70</color>
@@ -52,16 +52,16 @@
     <color name="white">#FFFFFF</color>
     <drawable name="smssdk_dialog_btn_nor">#00000000</drawable>
     <drawable name="smssdk_dialog_btn_pre">#ff282a2b</drawable>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/strings.xml -->
     <eat-comment/>
     <string name="app_name">一起</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="bluetooth">蓝牙</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/oks_strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="cancel">取消</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/strings.xml -->
     <eat-comment/>
     <string name="comment_hint">说两句...</string>
     <string name="detail_collect">收藏</string>
@@ -72,7 +72,7 @@
     <string name="detail_none">╮(╯▽╰)╭快来抢沙发~</string>
     <string name="detail_participate">参与</string>
     <string name="detail_participate_done">取消参与</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="douban">豆瓣</string>
     <string name="dropbox">Dropbox</string>
@@ -80,24 +80,24 @@
     <string name="evernote">印象笔记</string>
     <string name="facebook">Facebook</string>
     <string name="facebookmessenger">Facebook Messenger</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/oks_strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="finish">完成</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="flickr">Flickr</string>
     <string name="foursquare">FourSquare</string>
     <string name="google_plus_client_inavailable">Google+ 版本过低或者没有安装，需要升级或安装Google+才能使用！</string>
     <string name="googleplus">Google+</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/strings.xml -->
     <eat-comment/>
     <string name="index_login">登录</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="instagram">Instagram</string>
     <string name="instagram_client_inavailable">Instagram版本过低或者没有安装，需要升级或安装Instagram才能使用！</string>
     <string name="instapager_email_or_password_incorrect">Email或密码不正确</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/instapaper_strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/instapaper_strings.xml -->
     <eat-comment/>
     <string formatted="false" name="instapager_login_html"><![CDATA[
 <!DOCTYPE html>
@@ -165,7 +165,7 @@ function login(form){
 </body>
 </html>
 ]]></string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="instapaper">Instapaper</string>
     <string name="instapaper_email">邮箱</string>
@@ -180,54 +180,54 @@ function login(form){
     <string name="line">Line</string>
     <string name="line_client_inavailable">目前您的Line版本过低或未安装，需要安装Line才能使用</string>
     <string name="linkedin">领英</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/oks_strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="list_friends">%s的朋友</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/strings.xml -->
     <eat-comment/>
     <string name="login_with_qq">QQ登录</string>
     <string name="login_with_sina">微博登录</string>
     <string name="login_with_weixin">微信登录</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="mingdao">明道</string>
     <string name="mingdao_share_content">网页分享</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/oks_strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="multi_share">图文分享</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/strings.xml -->
     <eat-comment/>
     <string name="negative">取消</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="neteasemicroblog">网易微博</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/strings.xml -->
     <eat-comment/>
     <string name="photo_add_filename">文件名称</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="pinterest">Pinterest</string>
     <string name="pinterest_client_inavailable">Pinterest版本过低或者没有安装，需要升级或安装Pinterest才能使用！</string>
     <string name="pocket">Pocket</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/strings.xml -->
     <eat-comment/>
     <string name="positive">确认</string>
     <string name="post_content_hint">一起来发布活动吧...</string>
     <string name="post_photo_add">添加照片(限一张)</string>
     <string name="post_start">发布</string>
     <string name="post_title">发布活动</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/oks_strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="pull_to_refresh">下拉刷新</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="qq">QQ</string>
     <string name="qq_client_inavailable">QQ 版本过低或者没有安装，需要升级或安装QQ才能使用！</string>
     <string name="qzone">QQ空间</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/oks_strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="refreshing">刷新中…</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/strings.xml -->
     <eat-comment/>
     <string name="register">注册</string>
     <string name="register_choosetag">选择你的兴趣标签</string>
@@ -247,16 +247,16 @@ function login(form){
     <string name="register_telecode">验证码：</string>
     <string name="register_telephoto">手机号码：</string>
     <string name="register_username">昵称：</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/oks_strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="release_to_refresh">松开刷新</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="renren">人人网</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/strings.xml -->
     <eat-comment/>
     <string name="reply">回复</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/oks_strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="select_a_friend">请选择一个朋友</string>
     <string name="select_one_plat_at_least">请选择一个目标平台</string>
@@ -266,20 +266,20 @@ function login(form){
     <string name="share_completed">分享成功</string>
     <string name="share_failed">分享失败</string>
     <string name="share_to">分享到</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="share_to_mingdao">分享到明道</string>
     <string name="share_to_qq">分享到QQ</string>
     <string name="share_to_qzone">分享到QQ空间</string>
     <string name="share_to_qzone_default">来自%s的分享</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/oks_strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/oks_strings.xml -->
     <eat-comment/>
     <string name="sharing">分享操作正在后台进行…</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="shortmessage">信息</string>
     <string name="sinaweibo">新浪微博</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/strings.xml -->
     <eat-comment/>
     <string name="smssdk_cancel">取消</string>
     <string name="smssdk_make_sure_mobile_detail"><Data>我们将发送&lt;font color=#3cac17>验证码&lt;/font>短信到这个号码:</Data></string>
@@ -291,7 +291,7 @@ function login(form){
     <string name="smssdk_write_identify_code">填写验证码</string>
     <string name="smssdk_write_mobile_phone">请填写手机号码</string>
     <string name="smssdk_write_right_mobile_phone">请填写正确的手机号码</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="sohumicroblog">搜狐微博</string>
     <string name="sohusuishenkan">搜狐随身看</string>
@@ -299,10 +299,10 @@ function login(form){
     <string name="tumblr">Tumblr</string>
     <string name="twitter">Twitter</string>
     <string name="use_login_button">请改用“登录”按钮</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/strings.xml -->
     <eat-comment/>
     <string name="view_picture_back">返回</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="vkontakte">VK</string>
     <string name="website">http://www.mob.com</string>
@@ -314,7 +314,7 @@ function login(form){
     <string name="weibo_upload_content">分享图片</string>
     <string name="whatsapp">WhatsApp</string>
     <string name="whatsapp_client_inavailable">目前您的WhatsApp版本过低或未安装，需要安装WhatsApp才能使用</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/strings.xml -->
     <eat-comment/>
     <string name="xlistview_footer_hint_normal">查看更多</string>
     <string name="xlistview_footer_hint_ready">松开载入更多</string>
@@ -322,13 +322,13 @@ function login(form){
     <string name="xlistview_header_hint_normal">下拉刷新</string>
     <string name="xlistview_header_hint_ready">松开刷新数据</string>
     <string name="xlistview_header_last_time">上次更新时间：</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="yixin">易信</string>
     <string name="yixin_client_inavailable">目前您的易信版本过低或未安装，需要安装易信才能使用</string>
     <string name="yixinmoments">易信朋友圈</string>
     <string name="youdao">有道云笔记</string>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/styles.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/styles.xml -->
     <eat-comment/>
     <style name="AnimBottom" parent="@android:style/Animation">
         <item name="android:windowEnterAnimation">@anim/fade_in</item>
@@ -349,7 +349,7 @@ function login(form){
         <item name="android:windowEnterAnimation">@anim/dialog_enter</item>
         <item name="android:windowExitAnimation">@anim/dialog_exit</item>
     </style>
-    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/mystyle.xml -->
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/values/mystyle.xml -->
     <eat-comment/>
     <style name="mystyles">
         <item name="android:textColor">#646c78</item>

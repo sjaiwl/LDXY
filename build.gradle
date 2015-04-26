@@ -14,7 +14,14 @@ dependencies {
 
 android {
     compileSdkVersion 21
-    buildToolsVersion "20.0.0"
+    buildToolsVersion "21.1.2"
+    defaultConfig {
+        applicationId "com.ldxy.letsgoo"
+        minSdkVersion 16
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
 
     sourceSets {
         main {

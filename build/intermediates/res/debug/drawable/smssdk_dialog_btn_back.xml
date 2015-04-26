@@ -2,4 +2,4 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 	<item android:state_pressed="true" android:drawable="@drawable/smssdk_dialog_btn_pre" />
 	<item android:drawable="@drawable/smssdk_dialog_btn_nor" />
-</selector><!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/drawable/smssdk_dialog_btn_back.xml -->
+</selector><!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/drawable/smssdk_dialog_btn_back.xml -->
