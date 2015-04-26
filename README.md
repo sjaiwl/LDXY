@@ -32,5 +32,39 @@
 ## 项目中遇到的问题
 * 当需要在消息页中回复时，弹出键盘会把底部菜单栏顶上去的问题，以及弹出的edittext的如何监听返回键。
   * 这个在我的个人博客中有提到，可以[点击查看](http://blog.csdn.net/wlaizff/article/details/42103197)
+* 对于时间格式的转换
+  * 由于项目的后台使用的是rails框架，其默认的时间格式是UTC格式，需要在手机端进行转换显示
+  * 转换代码
+  ```
+  public static String getLocalTimeFromUTC(String UTCTime) {
+		if (UTCTime == "") {
+			return "时间获取失败";
+		}
+		SimpleDateFormat sdf = new SimpleDateFormat(
+				"yyyy-MM-dd'T'HH:mm:ss.SSS Z");
+		UTCTime = UTCTime.replace("Z", " UTC");
+		Date dt = null;
+		try {
+			dt = sdf.parse(UTCTime);
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+		GregorianCalendar g = new GregorianCalendar();
+		int minutetime = 0;
+		minutetime = Math.abs((int) (dt.getTime() - g.getTimeInMillis()))
+				/ (1000 * 60);
+		if (minutetime <= 0) {
+			return "刚刚";
+		}
+		if (minutetime > 0 && minutetime < 60) {
+			return minutetime + "分钟前";
+		}
+		if (minutetime >= 60 && minutetime < 60 * 24) {
+			return (int) minutetime / 60 + "小时前";
+		} else {
+			return (int) minutetime / (60 * 24) + "天前";
+		}
+	}
+  ```
   
   
