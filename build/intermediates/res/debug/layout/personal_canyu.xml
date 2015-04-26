@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef" >
+
+    <RelativeLayout
+        android:id="@+id/canyu_top"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff" >
+
+        <ImageView
+            android:id="@+id/fanhui_canyu"
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/r_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="我参与的活动"
+            android:textColor="#00A57D"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <com.app.xlistview.XListView
+        android:id="@+id/canyu_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/canyu_top" >
+    </com.app.xlistview.XListView>
+
+    <ImageView
+        android:id="@+id/canyu_blank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/null_data"
+        android:visibility="gone" />
+
+</RelativeLayout><!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/layout/personal_canyu.xml -->

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/indexBg" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:orientation="vertical" >
+
+        <!-- 整个活动单元 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@android:style/Theme.Translucent" >
+
+                <!-- 活动标题 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip"
+                    android:background="@drawable/unititle_bg"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/index_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="90dip"
+                        android:layout_marginRight="15dip"
+                        android:ellipsize="end"
+                        android:paddingBottom="7dip"
+                        android:paddingTop="7dip"
+                        android:singleLine="true"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="42dip"
+                    android:background="@color/white" >
+
+                    <!-- 活动内容 -->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="13dip"
+                        android:layout_marginRight="13dip"
+                        android:layout_marginTop="13dip"
+                        android:orientation="vertical" >
+
+                        <!-- 头像行 -->
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal" >
+
+                            <com.app.smart.SmartImageView
+                                android:id="@+id/index_image"
+                                android:layout_width="44dip"
+                                android:layout_height="44dip" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="11dip"
+                                android:orientation="vertical" >
+
+                                <TextView
+                                    android:id="@+id/index_name"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/index_activity_name"
+                                    android:textSize="20sp" />
+
+                                <TextView
+                                    android:id="@+id/index_when"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="2dip"
+                                    android:textColor="@color/index_activity_text"
+                                    android:textSize="15sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:orientation="vertical"
+                                android:paddingRight="2dip" >
+
+                                <TextView
+                                    android:id="@+id/index_participation"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:drawableLeft="@drawable/participation"
+                                    android:drawablePadding="10dip"
+                                    android:textColor="@color/index_activity_text"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/index_comment"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="4dip"
+                                    android:drawableLeft="@drawable/comment"
+                                    android:drawablePadding="10dip"
+                                    android:textColor="@color/index_activity_text"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <!-- 开始时间 -->
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dip"
+                            android:gravity="left"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:id="@+id/index_starttime"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@drawable/datetime"
+                                android:drawablePadding="10dip"
+                                android:textColor="@color/index_activity_text"
+                                android:textSize="17sp" />
+                        </LinearLayout>
+                        <!-- 位置信息 -->
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dip"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:id="@+id/index_location"
+                                android:layout_width="0dip"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:drawableLeft="@drawable/location"
+                                android:drawablePadding="10dip"
+                                android:ellipsize="end"
+                                android:singleLine="true"
+                                android:textColor="@color/index_activity_text"
+                                android:textSize="17sp" />
+
+                            <TextView
+                                android:layout_width="0dip"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+                        </LinearLayout>
+                        <!-- 具体信息 -->
+
+                        <TextView
+                            android:id="@+id/index_content"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="50dip"
+                            android:layout_marginTop="15dip"
+                            android:ellipsize="end"
+                            android:lines="3"
+                            android:textColor="@color/index_activity_text"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+                </LinearLayout>
+                <!-- 活动类型标签 -->
+
+                <TextView
+                    android:id="@+id/index_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="27dip"
+                    android:background="@drawable/activitytag"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+        </LinearLayout>
+        <!-- 活动收藏标签 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-30dip"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:paddingRight="20dip" >
+
+            <!--
+                 <TextView
+                android:id="@+id/index_z"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/zbefore"/>
+            -->
+
+            <TextView
+                android:id="@+id/index_collect_before"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/collectbefore" />
+
+            <TextView
+                android:id="@+id/index_collect_after"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/collectafter"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

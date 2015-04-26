@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values-en/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="bluetooth">Bluetooth</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values-en/oks_strings.xml -->
+    <eat-comment/>
+    <string name="cancel">Cancel</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values-en/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="douban">Douban</string>
+    <string name="dropbox">Dropbox</string>
+    <string name="email">Email</string>
+    <string name="evernote">Evernote</string>
+    <string name="facebook">Facebook</string>
+    <string name="facebookmessenger">Facebook Messenger</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values-en/oks_strings.xml -->
+    <eat-comment/>
+    <string name="finish">Finish</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values-en/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="flickr">Flickr</string>
+    <string name="foursquare">FourSquare</string>
+    <string name="google_plus_client_inavailable">Google+ client not exists or the version is too low</string>
+    <string name="googleplus">Google+</string>
+    <string name="instagram">Instagram</string>
+    <string name="instagram_client_inavailable">Instagram client not exists or the version is too low</string>
+    <string name="instapager_email_or_password_incorrect">Email or Password incorrect</string>
+    <string name="instapaper">Instapaper</string>
+    <string name="instapaper_email">Email</string>
+    <string name="instapaper_login">Sign In</string>
+    <string name="instapaper_logining">Sign In…</string>
+    <string name="instapaper_pwd">Password</string>
+    <string name="kaixin">Kaixin</string>
+    <string name="kakaostory">KakaoStory</string>
+    <string name="kakaostory_client_inavailable">KakaoStory client not exists or the version is too low</string>
+    <string name="kakaotalk">KakaoTalk</string>
+    <string name="kakaotalk_client_inavailable">KakaoTalk client not exists or the version is too low</string>
+    <string name="line">Line</string>
+    <string name="line_client_inavailable">Line client not exists or the version is too low</string>
+    <string name="linkedin">Linked in</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values-en/oks_strings.xml -->
+    <eat-comment/>
+    <string name="list_friends">Friends on %s</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values-en/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="mingdao">Mingdao</string>
+    <string name="mingdao_share_content">Share webpage</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values-en/oks_strings.xml -->
+    <eat-comment/>
+    <string name="multi_share">Photo Sharing</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values-en/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="neteasemicroblog">Netease Microblog</string>
+    <string name="pinterest">Pinterest</string>
+    <string name="pinterest_client_inavailable">Pinterest client not exists or the version is too low</string>
+    <string name="pocket">Pocket</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values-en/oks_strings.xml -->
+    <eat-comment/>
+    <string name="pull_to_refresh">Pull down to refresh</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values-en/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="qq">QQ</string>
+    <string name="qq_client_inavailable">Mobile QQ client not exists or the version is too low</string>
+    <string name="qzone">QZone</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values-en/oks_strings.xml -->
+    <eat-comment/>
+    <string name="refreshing">Refreshing…</string>
+    <string name="release_to_refresh">Release to refresh</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values-en/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="renren">Renren</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values-en/oks_strings.xml -->
+    <eat-comment/>
+    <string name="select_a_friend">Please select a friend</string>
+    <string name="select_one_plat_at_least">Please select a target platform</string>
+    <string name="shake2share">Shake your phone!</string>
+    <string name="share">Share</string>
+    <string name="share_canceled">Operation canceled</string>
+    <string name="share_completed">Operation succeeded</string>
+    <string name="share_failed">Operation failed</string>
+    <string name="share_to">Share to </string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values-en/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="share_to_mingdao">Share To Mingdao</string>
+    <string name="share_to_qq">Share To QQ</string>
+    <string name="share_to_qzone">Share To QZone</string>
+    <string name="share_to_qzone_default">Shared from %s</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values-en/oks_strings.xml -->
+    <eat-comment/>
+    <string name="sharing">Sharing operation is working in the background…</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values-en/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="shortmessage">Short Message</string>
+    <string name="sinaweibo">Sina Weibo</string>
+    <string name="sohumicroblog">Sohu Microblog</string>
+    <string name="sohusuishenkan">Sohu Suishenkan</string>
+    <string name="tencentweibo">Tencent Weibo</string>
+    <string name="tumblr">Tumblr</string>
+    <string name="twitter">Twitter</string>
+    <string name="use_login_button">use login button instead</string>
+    <string name="vkontakte">VK</string>
+    <string name="website">http://www.mob.com</string>
+    <string name="wechat">Wechat</string>
+    <string name="wechat_client_inavailable">Wechat client not exists or the version is too low</string>
+    <string name="wechatfavorite">Wechat Favorite</string>
+    <string name="wechatmoments">Wechat Moments</string>
+    <string name="weibo_oauth_regiseter">Authorization</string>
+    <string name="weibo_upload_content">分享图片</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="whatsapp_client_inavailable">WhatsApp client not exists or the version is too low</string>
+    <string name="yixin">Yixin</string>
+    <string name="yixin_client_inavailable">Yixin client not exists or the version is too low</string>
+    <string name="yixinmoments">Yixin Moments</string>
+    <string name="youdao">Youdao</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/welcome_lastpage"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/app_w4"
+    android:gravity="bottom|center_horizontal"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/welcome_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dip"
+        android:background="@drawable/app_go" />
+
+</LinearLayout>

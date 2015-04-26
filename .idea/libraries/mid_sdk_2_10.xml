@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mid-sdk-2.10">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/mid-sdk-2.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

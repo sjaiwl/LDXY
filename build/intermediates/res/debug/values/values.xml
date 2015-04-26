@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/color.xml -->
+    <eat-comment/>
+    <color name="BtBackground">#00A57D</color>
+    <color name="BtBackground1">#0A8E70</color>
+    <color name="black">#000000</color>
+    <color name="bottom_bg">#DFDFDF</color>
+    <color name="checkimagecolor">#9E9E9E</color>
+    <color name="comment_bg">#ffffff</color>
+    <color name="comment_color">#646c78</color>
+    <color name="detail_img">#82C0BB</color>
+    <color name="detail_none">#D3D3D3</color>
+    <color name="detail_titleBg">#646C77</color>
+    <color name="hintcolor">#D7D7D7</color>
+    <color name="indexBg">#EFEFEF</color>
+    <color name="index_activity_name">#BDA8F0</color>
+    <color name="index_activity_text">#D3D3D3</color>
+    <color name="index_login">#00A47C</color>
+    <color name="login_qq">#49BCCE</color>
+    <color name="login_sina">#FE7763</color>
+    <color name="login_weixin">#97CD6F</color>
+    <color name="postBg">#EFEFEF</color>
+    <color name="postCancel">#5D5D5D</color>
+    <color name="postEnable">#5D5D5D</color>
+    <color name="postHint">#D0D5D9</color>
+    <color name="postText">#A2A2A2</color>
+    <color name="postTitle">#00A57D</color>
+    <color name="red">#FF0000</color>
+    <color name="register">#00A278</color>
+    <color name="registerBg">#EFEFEF</color>
+    <color name="registerTagBg">#B2B2B2</color>
+    <color name="reply_bt">#4B4B4B</color>
+    <color name="selectcolor">#DFDFDF</color>
+    <color name="shareBg">#00A47C</color>
+    <color name="share_text">#575757</color>
+    <color name="tag1">#F0939D</color>
+    <color name="tag10">#F6C2B4</color>
+    <color name="tag11">#FBCD5D</color>
+    <color name="tag12">#B286B7</color>
+    <color name="tag2">#E98900</color>
+    <color name="tag3">#65E0E7</color>
+    <color name="tag4">#DED5DA</color>
+    <color name="tag5">#FE4E62</color>
+    <color name="tag6">#A9CB6A</color>
+    <color name="tag7">#C8EFBA</color>
+    <color name="tag8">#9AC9D3</color>
+    <color name="tag9">#F3E58D</color>
+    <color name="tagchoose">#868686</color>
+    <color name="tagunchoose">#CFCFCF</color>
+    <color name="test">#1ABF95</color>
+    <color name="white">#FFFFFF</color>
+    <drawable name="smssdk_dialog_btn_nor">#00000000</drawable>
+    <drawable name="smssdk_dialog_btn_pre">#ff282a2b</drawable>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">一起</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="bluetooth">蓝牙</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="cancel">取消</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="comment_hint">说两句...</string>
+    <string name="detail_collect">收藏</string>
+    <string name="detail_comment">评论</string>
+    <string name="detail_comment_send">发送</string>
+    <string name="detail_communicate">联系</string>
+    <string name="detail_joiners">已参与</string>
+    <string name="detail_none">╮(╯▽╰)╭快来抢沙发~</string>
+    <string name="detail_participate">参与</string>
+    <string name="detail_participate_done">取消参与</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="douban">豆瓣</string>
+    <string name="dropbox">Dropbox</string>
+    <string name="email">邮件</string>
+    <string name="evernote">印象笔记</string>
+    <string name="facebook">Facebook</string>
+    <string name="facebookmessenger">Facebook Messenger</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="finish">完成</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="flickr">Flickr</string>
+    <string name="foursquare">FourSquare</string>
+    <string name="google_plus_client_inavailable">Google+ 版本过低或者没有安装，需要升级或安装Google+才能使用！</string>
+    <string name="googleplus">Google+</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="index_login">登录</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="instagram">Instagram</string>
+    <string name="instagram_client_inavailable">Instagram版本过低或者没有安装，需要升级或安装Instagram才能使用！</string>
+    <string name="instapager_email_or_password_incorrect">Email或密码不正确</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/instapaper_strings.xml -->
+    <eat-comment/>
+    <string formatted="false" name="instapager_login_html"><![CDATA[
+<!DOCTYPE html>
+<html>
+<head>
+<meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\">
+<meta content=\"width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no\" id=\"viewport\" name=\"viewport\">
+<meta content=\"yes\" name=\"apple-mobile-web-app-capable\">
+<title>%s</title>
+<style type=\"text/css\">
+body{margin:0;padding:0}
+.inputstyle {
+    -webkit-tap-highlight-color:rgba(255,255,255,0);
+    width:100%%;
+    height:44px;
+    color:#000;
+    background:0;
+    border:0;
+    font-size:16px;
+    outline: none;
+    -webkit-appearance:none
+}
+
+.btn {
+    width:90%%;
+    height:44px;
+    line-height:44px;
+    background:#A0C035;
+    border:0;
+    border-radius:4px;
+    color:#fff;
+    font-size:16px;
+    text-align:center;
+    margin-top:15px;
+    display:block
+}
+.btn:disabled {
+    background: #dddddd;
+}
+.error {
+    color:red;
+}
+</style>
+</head>
+
+<body>
+<script type=\"text/javascript\">
+function login(form){
+    var u=form[\"u\"].value,p=form[\"p\"].value;
+    if(!u || !p)
+        return false;
+    form[\"s\"].disabled = true;
+    Android.onLogin(u, p);
+    return false;
+}
+</script>
+<form style=\"margin-top:45px;\" action=\"%s\" metho=\"get\" onsubmit=\"return login(this);\">
+%s
+<div style=\"padding-left:15px;border-top:1px solid #E3E3E5;border-bottom:1px solid #E3E3E5;\">
+ <input class=\"inputstyle\" id=\"u\" name=\"u\" type=\"text\" placeholder=\"%s\" style=\"border-bottom:1px solid #E3E3E5;\"/>
+ <input class=\"inputstyle\" id=\"p\" name=\"p\" type=\"password\" placeholder=\"%s\"/>
+</div>
+<p><input style=\"margin:0 auto;\" type=\"submit\" name=\"s\" value=\"  %s  \" class=\"btn\"/></p>
+</form>
+</body>
+</html>
+]]></string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="instapaper">Instapaper</string>
+    <string name="instapaper_email">邮箱</string>
+    <string name="instapaper_login">登录</string>
+    <string name="instapaper_logining">登录中…</string>
+    <string name="instapaper_pwd">密码</string>
+    <string name="kaixin">开心网</string>
+    <string name="kakaostory">KakaoStory</string>
+    <string name="kakaostory_client_inavailable">目前您的KakaoStory版本过低或未安装，需要安装KakaoStory才能使用</string>
+    <string name="kakaotalk">KakaoTalk</string>
+    <string name="kakaotalk_client_inavailable">目前您的KakaoTalk版本过低或未安装，需要安装KakaoTalk才能使用</string>
+    <string name="line">Line</string>
+    <string name="line_client_inavailable">目前您的Line版本过低或未安装，需要安装Line才能使用</string>
+    <string name="linkedin">领英</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="list_friends">%s的朋友</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="login_with_qq">QQ登录</string>
+    <string name="login_with_sina">微博登录</string>
+    <string name="login_with_weixin">微信登录</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="mingdao">明道</string>
+    <string name="mingdao_share_content">网页分享</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="multi_share">图文分享</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="negative">取消</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="neteasemicroblog">网易微博</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="photo_add_filename">文件名称</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="pinterest">Pinterest</string>
+    <string name="pinterest_client_inavailable">Pinterest版本过低或者没有安装，需要升级或安装Pinterest才能使用！</string>
+    <string name="pocket">Pocket</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="positive">确认</string>
+    <string name="post_content_hint">一起来发布活动吧...</string>
+    <string name="post_photo_add">添加照片(限一张)</string>
+    <string name="post_start">发布</string>
+    <string name="post_title">发布活动</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="qq">QQ</string>
+    <string name="qq_client_inavailable">QQ 版本过低或者没有安装，需要升级或安装QQ才能使用！</string>
+    <string name="qzone">QQ空间</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="refreshing">刷新中…</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="register">注册</string>
+    <string name="register_choosetag">选择你的兴趣标签</string>
+    <string name="register_code">验证码：</string>
+    <string name="register_done">开启新旅程</string>
+    <string name="register_must">*</string>
+    <string name="register_next">下一步</string>
+    <string name="register_password">修改密码：</string>
+    <string name="register_pwd_hint">是否继续沿用校园个人门户密码</string>
+    <string name="register_school">选择学校：</string>
+    <string name="register_send">发送</string>
+    <string name="register_sex">性别：</string>
+    <string name="register_sex_m">男</string>
+    <string name="register_sex_w">女</string>
+    <string name="register_stuid">学号：</string>
+    <string name="register_stupwd">密码：</string>
+    <string name="register_telecode">验证码：</string>
+    <string name="register_telephoto">手机号码：</string>
+    <string name="register_username">昵称：</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="release_to_refresh">松开刷新</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="renren">人人网</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="reply">回复</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="select_a_friend">请选择一个朋友</string>
+    <string name="select_one_plat_at_least">请选择一个目标平台</string>
+    <string name="shake2share">摇晃手机！</string>
+    <string name="share">分享</string>
+    <string name="share_canceled">分享已取消</string>
+    <string name="share_completed">分享成功</string>
+    <string name="share_failed">分享失败</string>
+    <string name="share_to">分享到</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="share_to_mingdao">分享到明道</string>
+    <string name="share_to_qq">分享到QQ</string>
+    <string name="share_to_qzone">分享到QQ空间</string>
+    <string name="share_to_qzone_default">来自%s的分享</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/oks_strings.xml -->
+    <eat-comment/>
+    <string name="sharing">分享操作正在后台进行…</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="shortmessage">信息</string>
+    <string name="sinaweibo">新浪微博</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="smssdk_cancel">取消</string>
+    <string name="smssdk_make_sure_mobile_detail"><Data>我们将发送&lt;font color=#3cac17>验证码&lt;/font>短信到这个号码:</Data></string>
+    <string name="smssdk_make_sure_mobile_num">确认手机号码</string>
+    <string name="smssdk_network_error">网络异常，请稍后重试</string>
+    <string name="smssdk_ok">好</string>
+    <string name="smssdk_receive_msg"><Data>&lt;font>%s&lt;/font>秒</Data></string>
+    <string name="smssdk_virificaition_code_wrong">验证码不正确，请重新输入</string>
+    <string name="smssdk_write_identify_code">填写验证码</string>
+    <string name="smssdk_write_mobile_phone">请填写手机号码</string>
+    <string name="smssdk_write_right_mobile_phone">请填写正确的手机号码</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="sohumicroblog">搜狐微博</string>
+    <string name="sohusuishenkan">搜狐随身看</string>
+    <string name="tencentweibo">腾讯微博</string>
+    <string name="tumblr">Tumblr</string>
+    <string name="twitter">Twitter</string>
+    <string name="use_login_button">请改用“登录”按钮</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="view_picture_back">返回</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="vkontakte">VK</string>
+    <string name="website">http://www.mob.com</string>
+    <string name="wechat">微信好友</string>
+    <string name="wechat_client_inavailable">目前您的微信版本过低或未安装微信，需要安装微信才能使用</string>
+    <string name="wechatfavorite">微信收藏</string>
+    <string name="wechatmoments">微信朋友圈</string>
+    <string name="weibo_oauth_regiseter">应用授权</string>
+    <string name="weibo_upload_content">分享图片</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="whatsapp_client_inavailable">目前您的WhatsApp版本过低或未安装，需要安装WhatsApp才能使用</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="yixin">易信</string>
+    <string name="yixin_client_inavailable">目前您的易信版本过低或未安装，需要安装易信才能使用</string>
+    <string name="yixinmoments">易信朋友圈</string>
+    <string name="youdao">有道云笔记</string>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+    <style name="CommonDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/smssdk_dialog_bg</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="detail_dotStyle">
+        <item name="android:layout_width">10dip</item>
+        <item name="android:layout_height">10dip</item>
+        <item name="android:layout_marginLeft">4dip</item>
+        <item name="android:layout_marginRight">4dip</item>
+        <item name="android:src">@drawable/dot</item>
+    </style>
+    <style name="myPopupwindow__style" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+    <!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/values/mystyle.xml -->
+    <eat-comment/>
+    <style name="mystyles">
+        <item name="android:textColor">#646c78</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>

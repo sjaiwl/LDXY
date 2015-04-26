@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:shape="oval">
+    <corners android:radius="5dip"/>
+    <solid android:color="#CDCECD"/>
+</shape>
+<!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/drawable-xhdpi/dot_normal.xml -->

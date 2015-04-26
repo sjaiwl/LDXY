@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/welcome_viewpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/welcome_dot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dip"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageView style="@style/detail_dotStyle" />
+
+        <ImageView style="@style/detail_dotStyle" />
+
+        <ImageView style="@style/detail_dotStyle" />
+
+        <ImageView style="@style/detail_dotStyle" />
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/Users/sjaiwl/Documents/Android%20ADT%20WorkSpace/LDXY/res/layout/activity_welcome.xml -->

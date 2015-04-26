@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="设置"
+            android:textColor="#00A57D"
+            android:textSize="20sp"
+            android:layout_alignParentEnd="false" />
+
+        <ImageView
+            android:id="@+id/fanhui_setting"
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:src="@drawable/r_back" />
+    </RelativeLayout>
+
+    <com.app.tools.MyScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="20dp" >
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff" >
+
+                <com.app.tools.CircularLoginImage
+                    android:id="@+id/setting_image"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/userphoto" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/setting_image"
+                    android:layout_alignTop="@+id/setting_image"
+                    android:layout_marginRight="-5dp"
+                    android:src="@drawable/setting_qianbi" />
+
+                <TextView
+                    android:id="@+id/setting_name"
+                    style="@style/mystyles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/setting_image"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:text="LMNOP"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"
+                    android:layout_below="@+id/setting_name" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="25dp" >
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/setting_geren"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bar_selector" >
+
+                <TextView
+                    style="@style/mystyles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:text="个人信息修改" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="25dp"
+                    android:src="@drawable/my_jiantou" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dp" >
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/setting_phone"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bar_selector" >
+
+                <TextView
+                    style="@style/mystyles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:text="手机绑定与修改" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="25dp"
+                    android:src="@drawable/my_jiantou" />
+            </RelativeLayout>
+
+            <!--
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dp" >
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/setting_tag"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="#ffffff" >
+
+        <TextView
+            style="@style/mystyles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="标签修改" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/my_jiantou" />
+    </RelativeLayout>
+            -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="25dp" >
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/setting_exit"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bar_selector" >
+
+                <TextView
+                    style="@style/mystyles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:text="退出当前账号" />
+            </RelativeLayout>
+        </LinearLayout>
+    </com.app.tools.MyScrollView>
+
+</LinearLayout>

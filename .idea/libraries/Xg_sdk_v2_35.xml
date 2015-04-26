@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Xg_sdk_v2.35">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/Xg_sdk_v2.35.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

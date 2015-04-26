@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pop_login_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="15dip">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dip"
+            android:layout_marginBottom="15dip"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right">
+
+                <TextView
+                    android:layout_width="40dip"
+                    android:layout_height="35dip"
+                    android:background="@drawable/login_weixin1" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/login_page_weixin"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@color/login_weixin"
+                android:gravity="center"
+                android:text="@string/login_with_weixin"
+                android:textColor="@color/white" />
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="left">
+
+                <TextView
+                    android:layout_width="40dip"
+                    android:layout_height="35dip"
+                    android:background="@drawable/login_weixin2" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dip"
+            android:layout_marginBottom="15dip"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right">
+
+                <TextView
+                    android:layout_width="40dip"
+                    android:layout_height="35dip"
+                    android:background="@drawable/login_qq1" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/login_page_qq"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@color/login_qq"
+                android:gravity="center"
+                android:text="@string/login_with_qq"
+                android:textColor="@color/white" />
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="left">
+
+                <TextView
+                    android:layout_width="40dip"
+                    android:layout_height="35dip"
+                    android:background="@drawable/login_qq2" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dip"
+            android:layout_marginBottom="15dip"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right">
+
+                <TextView
+                    android:layout_width="40dip"
+                    android:layout_height="35dip"
+                    android:background="@drawable/login_sina1" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/login_page_sina"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@color/login_sina"
+                android:gravity="center"
+                android:text="@string/login_with_sina"
+                android:textColor="@color/white" />
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="left">
+
+                <TextView
+                    android:layout_width="40dip"
+                    android:layout_height="35dip"
+                    android:background="@drawable/login_sina2" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

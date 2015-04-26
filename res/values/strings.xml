@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">一起</string>
+    <string name="positive">确认</string>
+    <string name="negative">取消</string>
+    <string name="register">注册</string>
+    <string name="register_school">选择学校：</string>
+    <string name="register_stuid">学号：</string>
+    <string name="register_stupwd">密码：</string>
+    <string name="register_code">验证码：</string>
+    <string name="register_username">昵称：</string>
+    <string name="register_sex">性别：</string>
+    <string name="register_sex_m">男</string>
+    <string name="register_sex_w">女</string>
+    <string name="register_must">*</string>
+    <string name="register_telephoto">手机号码：</string>
+    <string name="register_telecode">验证码：</string>
+    <string name="register_send">发送</string>
+    <string name="register_password">修改密码：</string>
+    <string name="register_pwd_hint">是否继续沿用校园个人门户密码</string>
+    <string name="register_choosetag">选择你的兴趣标签</string>
+    <string name="register_next">下一步</string>
+    <string name="register_done">开启新旅程</string>
+    <string name="index_login">登录</string>
+    <string name="login_with_weixin">微信登录</string>
+    <string name="login_with_qq">QQ登录</string>
+    <string name="login_with_sina">微博登录</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="detail_participate">参与</string>
+    <string name="detail_participate_done">取消参与</string>
+    <string name="detail_communicate">联系</string>
+    <string name="detail_collect">收藏</string>
+    <string name="detail_joiners">已参与</string>
+    <string name="detail_comment">评论</string>
+    <string name="comment_hint">说两句...</string>
+    <string name="detail_comment_send">发送</string>
+    <string name="reply">回复</string>
+    <string name="detail_none">╮(╯▽╰)╭快来抢沙发~</string>
+    <string name="post_title">发布活动</string>
+    <string name="post_start">发布</string>
+    <string name="post_content_hint">一起来发布活动吧...</string>
+    <string name="post_photo_add">添加照片(限一张)</string>
+    <string name="view_picture_back">返回</string>
+    <string name="photo_add_filename">文件名称</string>
+
+    <string name="smssdk_write_identify_code">填写验证码</string>
+    <string name="smssdk_network_error">网络异常，请稍后重试</string>
+    <string name="smssdk_virificaition_code_wrong">验证码不正确，请重新输入</string>
+    <string name="smssdk_write_mobile_phone">请填写手机号码</string>
+    <string name="smssdk_write_right_mobile_phone">请填写正确的手机号码</string>
+    <string name="smssdk_make_sure_mobile_num">确认手机号码</string>
+    <string name="smssdk_cancel">取消</string>
+    <string name="smssdk_ok">好</string>
+    <string name="smssdk_make_sure_mobile_detail"><Data>我们将发送&lt;font color=#3cac17>验证码&lt;/font>短信到这个号码:</Data></string>
+    <string name="smssdk_receive_msg"><Data>&lt;font>%s&lt;/font>秒</Data></string>
+</resources>

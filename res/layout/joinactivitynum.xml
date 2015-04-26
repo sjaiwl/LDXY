@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff" >
+
+    <TextView
+        android:id="@+id/zanlist_blank1"
+        android:layout_width="fill_parent"
+        android:layout_height="10dp" />
+
+    <com.app.smart.SmartImageView
+        android:id="@+id/zan_image"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/zanlist_blank1"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp" />
+
+    <ImageView
+        android:id="@+id/zan_sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/zan_image"
+        android:layout_alignTop="@+id/zan_image"
+        android:layout_marginLeft="-8dp"
+        android:layout_marginTop="-6dp"
+        android:src="@drawable/zan_boy" />
+
+    <ImageView
+        android:id="@+id/zan_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/zan_call" />
+
+    <TextView
+        android:id="@+id/zanlist_blank2"
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:layout_below="@id/zan_image" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/zanlist_blank2"
+        android:background="#efefef" />
+
+    <TextView
+        android:id="@+id/zan_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/zan_image"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/zan_image"
+        android:text="昵称"
+        android:textColor="#646c78"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/zan_school"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/zan_image"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/zan_image"
+        android:text="湖南大学"
+        android:textColor="#C1C1C1"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/zan_phonenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/zan_school"
+        android:layout_centerVertical="true"
+        android:text="14726905201"
+        android:textColor="#646c78"
+        android:textSize="18sp" />
+
+</RelativeLayout>

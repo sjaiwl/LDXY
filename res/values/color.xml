@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="black">#000000</color>
+    <color name="BtBackground">#00A57D</color>
+    <color name="BtBackground1">#0A8E70</color>
+    <color name="indexBg">#EFEFEF</color>
+    <color name="index_login">#00A47C</color>
+    <color name="login_weixin">#97CD6F</color>
+    <color name="login_qq">#49BCCE</color>
+    <color name="login_sina">#FE7763</color>
+    <color name="index_activity_name">#BDA8F0</color>
+    <color name="index_activity_text">#D3D3D3</color>
+    <color name="register">#00A278</color>
+    <color name="registerBg">#EFEFEF</color>
+    <color name="registerTagBg">#B2B2B2</color>
+    <color name="detail_img">#82C0BB</color>
+    <color name="detail_titleBg">#646C77</color>
+    <color name="detail_none">#D3D3D3</color>
+    <color name="bottom_bg">#DFDFDF</color>
+    <color name="reply_bt">#4B4B4B</color>
+    <color name="comment_bg">#ffffff</color>
+    <color name="comment_color">#646c78</color>
+    <color name="share_text">#575757</color>
+    <color name="shareBg">#00A47C</color>
+    <color name="postBg">#EFEFEF</color>
+    <color name="postCancel">#5D5D5D</color>
+    <color name="postTitle">#00A57D</color>
+    <color name="postHint">#D0D5D9</color>
+    <color name="postEnable">#5D5D5D</color>
+    <color name="postText">#A2A2A2</color>
+    <color name="tagunchoose">#CFCFCF</color>
+    <color name="tagchoose">#868686</color>
+    <color name="test">#1ABF95</color>
+    <color name="checkimagecolor">#9E9E9E</color>
+    <color name="selectcolor">#DFDFDF</color>
+    <color name="hintcolor">#D7D7D7</color>
+
+    <color name="tag1">#F0939D</color>
+    <color name="tag2">#E98900</color>
+    <color name="tag3">#65E0E7</color>
+    <color name="tag4">#DED5DA</color>
+    <color name="tag5">#FE4E62</color>
+    <color name="tag6">#A9CB6A</color>
+    <color name="tag7">#C8EFBA</color>
+    <color name="tag8">#9AC9D3</color>
+    <color name="tag9">#F3E58D</color>
+    <color name="tag10">#F6C2B4</color>
+    <color name="tag11">#FBCD5D</color>
+    <color name="tag12">#B286B7</color>
+    <drawable name="smssdk_dialog_btn_nor">#00000000</drawable>
+    <drawable name="smssdk_dialog_btn_pre">#ff282a2b</drawable>
+
+</resources>

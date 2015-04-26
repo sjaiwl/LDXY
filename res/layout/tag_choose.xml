@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dip"
+        android:layout_marginRight="30dip"
+        android:background="@drawable/tagwindow_bg"
+        android:orientation="vertical"
+        android:paddingTop="10dip" >
+
+        <GridView
+            android:id="@+id/grid_tag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dip"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="5dip"
+            android:descendantFocusability="blocksDescendants"
+            android:gravity="center"
+            android:horizontalSpacing="15dip"
+            android:numColumns="4"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="10dip" >
+        </GridView>
+
+        <TextView
+            android:id="@+id/choosetag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/postTitle"
+            android:gravity="center"
+            android:padding="8dip"
+            android:text="@string/positive"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+</LinearLayout>

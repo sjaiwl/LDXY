@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/m_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <fragment
+        android:id="@+id/fragment_index"
+        android:name="com.app.fragment.FragmentIndex"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="10" />
+
+    <fragment
+        android:id="@+id/fragment_message"
+        android:name="com.app.fragment.FragmentMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="10" />
+
+    <fragment
+        android:id="@+id/fragment_mine"
+        android:name="com.app.fragment.FragmentMine"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="10" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/bottom_index"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@color/BtBackground1"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/bottom_index_pic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/index_click" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bottom_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@color/BtBackground"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/bottom_message_pic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/message" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bottom_mine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@color/BtBackground"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/bottom_mine_pic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mine" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

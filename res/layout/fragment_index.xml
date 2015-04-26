@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/index_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/indexBg"
+    android:orientation="vertical" >
+
+    <!-- 头部切换栏 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@color/white"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|left"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/index_login"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_marginLeft="15dip"
+                android:gravity="center"
+                android:text="@string/index_login"
+                android:textColor="@color/index_login"
+                android:textSize="16sp" />
+
+            <com.app.tools.CircularIndexImage
+                android:id="@+id/index_userphoto"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_marginLeft="15dip"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/index_recommend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/recommendbefore" />
+
+            <TextView
+                android:id="@+id/index_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/allafter" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|right"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/index_post"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dip"
+                android:gravity="center"
+                android:padding="8dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/post" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/index_nulldata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/null_data"
+            android:visibility="gone" />
+
+        <com.app.xlistview.XListView
+            android:id="@+id/index_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </com.app.xlistview.XListView>
+    </RelativeLayout>
+
+</LinearLayout>
