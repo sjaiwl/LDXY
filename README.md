@@ -21,5 +21,10 @@
 
 ## 关于SmartImageView开源控件的使用
 * smartImageVIew，支持从URL和通讯录中获取图像，可以替代Android标准的ImageView
+  * 特征
+  * 根据URL地址装载图像；
+  * 支持装载通讯录中的图像；
+  * 支持异步装载；
+  * 支持缓存； 
   
   
