@@ -18,6 +18,8 @@
 * 用户的登陆和活动的分享
   * 支持三方登陆和分享。
   * 短信验证和实名注册。
-  
+
+## 关于SmartImageView开源控件的使用
+### smartImageVIew，支持从URL和通讯录中获取图像，可以替代Android标准的ImageView
   
   
