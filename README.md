@@ -86,8 +86,10 @@
     ...
     ...
     ```
-  * 项目主要采用静态类的方式，主要是通过gson解析用户的json数据
+  * 项目主要采用静态类的方式，主要是通过gson解析用户的json数据，维护也更方便。
   ```
   Gson gson = new Gson();
   userInfo = gson.fromJson(response.toString(), UserInfo.class);
   ```
+## 参考资料
+[android的开源项目](https://github.com/Trinea/android-open-project)
