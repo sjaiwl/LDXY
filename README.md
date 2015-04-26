@@ -26,6 +26,7 @@
   * 支持装载通讯录中的图像；
   * 支持异步装载；
   * 支持缓存；
-* 开源项目下载地址 [Download](https://github.com/loopj/android-smart-image-view)
+* 开源项目下载地址 
+  * [Download](https://github.com/loopj/android-smart-image-view)
   
   
