@@ -92,6 +92,6 @@
   userInfo = gson.fromJson(response.toString(), UserInfo.class);
   ```
 ## 参考资料
-### [android的开源项目 (里面有很多很好的控件，很棒的界面效果)](https://github.com/Trinea/android-open-project)
-### [常用的jar包](https://github.com/sjaiwl/LDXY/tree/master/libs)
+##### [android的开源项目 (里面有很多很好的控件，很棒的界面效果)](https://github.com/Trinea/android-open-project)
+##### [常用的jar包](https://github.com/sjaiwl/LDXY/tree/master/libs)
 
