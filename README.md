@@ -20,6 +20,6 @@
   * 短信验证和实名注册。
 
 ## 关于SmartImageView开源控件的使用
-### smartImageVIew，支持从URL和通讯录中获取图像，可以替代Android标准的ImageView
+* smartImageVIew，支持从URL和通讯录中获取图像，可以替代Android标准的ImageView
   
   
