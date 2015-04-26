@@ -28,5 +28,9 @@
   * 支持缓存；
 * 开源项目下载地址 
   * [Download](https://github.com/loopj/android-smart-image-view)
+
+## 项目中遇到的问题
+* 当需要在消息页中回复时，弹出键盘会把底部菜单栏顶上去的问题，以及弹出的edittext的如何监听返回键。
+  * 这个在我的个人博客中有提到，可以[点击查看](http://blog.csdn.net/wlaizff/article/details/42103197)
   
   
