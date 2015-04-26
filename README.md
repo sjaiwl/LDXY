@@ -66,5 +66,11 @@
 		}
 	}
   ```
-  * 怎么在手机端保存用户的信息？
-    * 采用
+* 怎么在手机端保存用户的信息？
+  * 一种是采用SharedPreferences保存用户信息
+  * 另一种是采用静态类的方法，保存user信息
+  * 项目主要采用静态类的方式，主要是通过gson解析用户的json数据
+  ```
+  Gson gson = new Gson();
+  userInfo = gson.fromJson(response.toString(), UserInfo.class);
+  ```
