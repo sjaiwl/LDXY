@@ -35,7 +35,7 @@
 * 对于时间格式的转换
   * 由于项目的后台使用的是rails框架，其默认的时间格式是UTC格式，需要在手机端进行转换显示
   * 转换代码
-  ```
+  ``` java
   public static String getLocalTimeFromUTC(String UTCTime) {
 		if (UTCTime == "") {
 			return "时间获取失败";
@@ -68,7 +68,7 @@
   ```
 * 怎么在手机端保存用户的信息？
   * 一种是采用SharedPreferences保存用户信息
-  ```
+  ``` java
   SharedPreferences sharedPreferences = getSharedPreferences(PREFERENCE_NAME, Activity.MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPreferences.edit();
         userName = username.getText().toString();
@@ -78,7 +78,7 @@
         editor.commit();
   ```
   * 另一种是采用静态类的方法，保存user信息
-  ```
+  ``` java
   public class UserInfo implements Serializable {
     public static UserInfo user = null;
     public Integer doctor_id;
@@ -87,7 +87,7 @@
     ...
     ```
   * 项目主要采用静态类的方式，主要是通过gson解析用户的json数据，维护也更方便。
-  ```
+  ``` java
   Gson gson = new Gson();
   userInfo = gson.fromJson(response.toString(), UserInfo.class);
   ```
