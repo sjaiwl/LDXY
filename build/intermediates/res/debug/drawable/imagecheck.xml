@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_pressed="true"  android:drawable="@color/checkimagecolor"/>
+    <item android:drawable="@color/white"></item>
+</selector>
+<!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/drawable/imagecheck.xml -->

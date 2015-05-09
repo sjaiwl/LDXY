@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/registerfir1"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="#ffffff" >
+
+        <ImageView
+            android:id="@+id/register_back1"
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/r_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="实名认证"
+            android:textColor="#00A57D"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <com.app.tools.MyScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/registerfir1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/registerfir2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/ballon" />
+
+            <RelativeLayout
+                android:id="@+id/registerfir3"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/registerfir2"
+                android:background="#ffffff" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:text="手机号码："
+                    android:textColor="#00A57D" />
+
+                <EditText
+                    android:id="@+id/register_telephone"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="110dp"
+                    android:background="@null"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:maxLength="11"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:id="@+id/register_postphone"
+                    android:layout_width="45dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/phonepost_before"
+                    android:gravity="center"
+                    android:text="发送"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/registerfir4"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/registerfir3"
+                android:orientation="horizontal" >
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/registerfir5"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/registerfir4"
+                android:background="#ffffff" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:text="验证码："
+                    android:textColor="#00A57D" />
+
+                <EditText
+                    android:id="@+id/register_telecode"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="110dp"
+                    android:background="@null"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:maxLength="6"
+                    android:singleLine="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/registerfir6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/registerfir5" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/register_firimage" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/register_next1"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:background="#00A57D" >
+
+                <TextView
+                    android:id="@+id/register_firnext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="提交验证码"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </com.app.tools.MyScrollView>
+
+</RelativeLayout><!-- From: file:/Users/sjaiwl/Documents/Android%20Studio%20WorkSpace/LDXY/res/layout/activity_registerfir.xml -->
